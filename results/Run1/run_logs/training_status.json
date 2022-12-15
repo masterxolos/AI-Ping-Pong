@@ -1,0 +1,65 @@
+{
+    "config": {
+        "checkpoints": [
+            {
+                "steps": 8499948,
+                "file_path": "results\\Run1\\config\\config-8499948.onnx",
+                "reward": null,
+                "creation_time": 1671073293.2651844,
+                "auxillary_file_paths": [
+                    "results\\Run1\\config\\config-8499948.pt"
+                ]
+            },
+            {
+                "steps": 8999944,
+                "file_path": "results\\Run1\\config\\config-8999944.onnx",
+                "reward": 7.50200005620718,
+                "creation_time": 1671073583.5672157,
+                "auxillary_file_paths": [
+                    "results\\Run1\\config\\config-8999944.pt"
+                ]
+            },
+            {
+                "steps": 9499964,
+                "file_path": "results\\Run1\\config\\config-9499964.onnx",
+                "reward": 7.502999801188707,
+                "creation_time": 1671073872.725122,
+                "auxillary_file_paths": [
+                    "results\\Run1\\config\\config-9499964.pt"
+                ]
+            },
+            {
+                "steps": 9999984,
+                "file_path": "results\\Run1\\config\\config-9999984.onnx",
+                "reward": 7.503999805698792,
+                "creation_time": 1671074162.6682022,
+                "auxillary_file_paths": [
+                    "results\\Run1\\config\\config-9999984.pt"
+                ]
+            },
+            {
+                "steps": 10000176,
+                "file_path": "results\\Run1\\config\\config-10000176.onnx",
+                "reward": 7.503999805698792,
+                "creation_time": 1671074162.745461,
+                "auxillary_file_paths": [
+                    "results\\Run1\\config\\config-10000176.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000176,
+            "file_path": "results\\Run1\\config.onnx",
+            "reward": 7.503999805698792,
+            "creation_time": 1671074162.745461,
+            "auxillary_file_paths": [
+                "results\\Run1\\config\\config-10000176.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}
