@@ -1352,6 +1352,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &144393937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,6 +1405,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &176194469
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,6 +2229,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &228520499
 GameObject:
   m_ObjectHideFlags: 0
@@ -2358,6 +2364,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &229056030
 GameObject:
   m_ObjectHideFlags: 0
@@ -2947,6 +2955,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &305435450
 GameObject:
   m_ObjectHideFlags: 0
@@ -2998,6 +3008,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &325044392
 GameObject:
   m_ObjectHideFlags: 0
@@ -4321,6 +4333,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &433725332
 GameObject:
   m_ObjectHideFlags: 0
@@ -4429,6 +4443,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &442186656
 GameObject:
   m_ObjectHideFlags: 0
@@ -6140,6 +6156,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &600522822
 GameObject:
   m_ObjectHideFlags: 0
@@ -6603,6 +6621,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &647967322
 GameObject:
   m_ObjectHideFlags: 0
@@ -8171,6 +8191,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &758591541
 GameObject:
   m_ObjectHideFlags: 0
@@ -9343,6 +9365,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &846046279
 GameObject:
   m_ObjectHideFlags: 0
@@ -10122,6 +10146,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &901850027
 GameObject:
   m_ObjectHideFlags: 0
@@ -10255,6 +10281,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &914147833
 GameObject:
   m_ObjectHideFlags: 0
@@ -11849,6 +11877,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1019857485
 GameObject:
   m_ObjectHideFlags: 0
@@ -16428,6 +16458,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1252797468
 GameObject:
   m_ObjectHideFlags: 0
@@ -17184,6 +17216,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1282902058
 GameObject:
   m_ObjectHideFlags: 0
@@ -18530,6 +18564,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1429377508
 GameObject:
   m_ObjectHideFlags: 0
@@ -21028,6 +21064,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1607073741
 GameObject:
   m_ObjectHideFlags: 0
@@ -21416,6 +21454,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1651364912
 GameObject:
   m_ObjectHideFlags: 0
@@ -21445,7 +21485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3aa17f44d533504bae53a420402e7b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftPlayer: {fileID: 2141993999}
+  leftPlayer: {fileID: 0}
   rightPlayer: {fileID: 339513154}
   ball: {fileID: 1594370506}
   maxStep: 2000
@@ -21453,6 +21493,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 1
 --- !u!4 &1651364914
 Transform:
   m_ObjectHideFlags: 0
@@ -22543,6 +22585,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1714552540
 GameObject:
   m_ObjectHideFlags: 0
@@ -22594,6 +22638,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1732120249
 GameObject:
   m_ObjectHideFlags: 0
@@ -24449,6 +24495,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1801973271
 GameObject:
   m_ObjectHideFlags: 0
@@ -25024,6 +25072,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1876572772
 GameObject:
   m_ObjectHideFlags: 0
@@ -25158,6 +25208,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1895268722
 GameObject:
   m_ObjectHideFlags: 0
@@ -25555,6 +25607,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &1917519889
 GameObject:
   m_ObjectHideFlags: 0
@@ -27377,6 +27431,8 @@ MonoBehaviour:
   currentStep: 0
   leftTeamScore: {fileID: 8826799493204962401}
   rightTeamScore: {fileID: 8826799492534950277}
+  isLeftPlayerBot: 0
+  isRightPlayerBot: 0
 --- !u!1 &2057892686
 GameObject:
   m_ObjectHideFlags: 0
@@ -28815,9 +28871,7 @@ GameObject:
   - component: {fileID: 2141993996}
   - component: {fileID: 2141993995}
   - component: {fileID: 2141993994}
-  - component: {fileID: 2141994000}
-  - component: {fileID: 2141993999}
-  - component: {fileID: 2141993998}
+  - component: {fileID: 2141994001}
   m_Layer: 0
   m_Name: LeftPlayer
   m_TagString: Player
@@ -28937,7 +28991,7 @@ Transform:
   m_Father: {fileID: 2059251923}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2141993998
+--- !u!114 &2141994001
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28946,60 +29000,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2141993993}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Script: {fileID: 11500000, guid: 04065cb3972244f684ec5d3ca1ec08de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecisionPeriod: 5
-  TakeActionsBetweenDecisions: 1
---- !u!114 &2141993999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141993993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18eab008aa8a1dd42b65398b9c6cb7d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agentParameters:
-    maxStep: 0
-  hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
-  ballTransform: {fileID: 1594370505}
-  moveSpeed: 8
---- !u!114 &2141994000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141993993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_BrainParameters:
-    VectorObservationSize: 6
-    NumStackedVectorObservations: 1
-    m_ActionSpec:
-      m_NumContinuousActions: 1
-      BranchSizes: 
-    VectorActionSize: 01000000
-    VectorActionDescriptions: []
-    VectorActionSpaceType: 1
-    hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 439c05479cff300469f614a55a03dbfb, type: 3}
-  m_InferenceDevice: 0
-  m_BehaviorType: 1
-  m_BehaviorName: config
-  TeamId: 0
-  m_UseChildSensors: 1
-  m_UseChildActuators: 1
-  m_DeterministicInference: 0
-  m_ObservableAttributeHandling: 0
+  yMargin: 3.1
 --- !u!1 &2142528092
 GameObject:
   m_ObjectHideFlags: 0

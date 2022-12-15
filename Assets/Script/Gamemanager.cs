@@ -16,14 +16,24 @@ public class Gamemanager : MonoBehaviour
     [SerializeField] private Text leftTeamScore;
     [SerializeField] private Text rightTeamScore;
 
+    [SerializeField] private bool isLeftPlayerBot;
+    [SerializeField] private bool isRightPlayerBot;
     private int leftScore;
     private int rightScore;
     public void LeftGoal()
     {
-        leftPlayer.AddReward(1f);
-        rightPlayer.AddReward(-1f);
-        leftPlayer.EndEpisode();
-        rightPlayer.EndEpisode();
+        if (isLeftPlayerBot)
+        {
+            leftPlayer.AddReward(1f);
+            leftPlayer.EndEpisode();
+        }
+
+        if (isRightPlayerBot)
+        {
+            rightPlayer.AddReward(-1f); 
+            rightPlayer.EndEpisode();
+        }
+        
         leftScore++;
         UpdateUI();
 
@@ -31,10 +41,18 @@ public class Gamemanager : MonoBehaviour
     }
     public void RightGoal()
     {
-        leftPlayer.AddReward(-1f);
-        rightPlayer.AddReward(1f);
-        leftPlayer.EndEpisode();
-        rightPlayer.EndEpisode();
+        if (isLeftPlayerBot)
+        {
+           leftPlayer.AddReward(-1f); 
+           leftPlayer.EndEpisode();
+        }
+
+        if (isRightPlayerBot)
+        {
+            rightPlayer.AddReward(1f);
+            rightPlayer.EndEpisode();
+        }
+        
         rightScore++;
         UpdateUI();
 
@@ -58,8 +76,10 @@ public class Gamemanager : MonoBehaviour
         currentStep++;
         if (isInTraining == true && currentStep >= maxStep)
         {
-            leftPlayer.EpisodeInterrupted();
-            rightPlayer.EpisodeInterrupted();
+            if(isLeftPlayerBot)
+                leftPlayer.EpisodeInterrupted();
+            if(isRightPlayerBot)
+                rightPlayer.EpisodeInterrupted();
             NewGame();  
         }
     }
