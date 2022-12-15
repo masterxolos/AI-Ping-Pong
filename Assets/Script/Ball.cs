@@ -9,7 +9,7 @@ public class Ball : MonoBehaviour
 {
     private Rigidbody2D _rb;
     [SerializeField] private int speed;
-    [SerializeField] private Gamemanager _gamemanager;
+    [SerializeField] private GameManager _gamemanager;
     [SerializeField] private GameObject particlePrefab;
     [SerializeField] private GameObject particlePrefab2;
     [SerializeField] private GameObject particlePrefab3;
