@@ -101,15 +101,11 @@ public class GameManager : MonoBehaviour
         {
             if (isGamePaused)
             {
-                Time.timeScale = 1;
-                isGamePaused = false;
-                pauseMenu.SetActive(false);
+                GameState(true);
             }
             else
             {
-                Time.timeScale = 0;
-                isGamePaused = true;
-                pauseMenu.SetActive(true);
+                GameState(false);
             }
         }
     }
@@ -121,6 +117,27 @@ public class GameManager : MonoBehaviour
     }
 
     #region PauseMenu
+
+    public void GameState(bool state)
+    {
+        if (state)
+        {
+            Time.timeScale = 1;
+            isGamePaused = false;
+            pauseMenu.SetActive(false);
+        }
+        else
+        {
+            Time.timeScale = 0;
+            isGamePaused = true;
+            pauseMenu.SetActive(true);
+        }
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
     public void ChangeLeftPlayerMode(bool status)
     {
         if (status)
