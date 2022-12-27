@@ -1,0 +1,29 @@
+{
+    "Easy": {
+        "checkpoints": [
+            {
+                "steps": 31607,
+                "file_path": "results\\ppo\\Easy\\Easy-31607.onnx",
+                "reward": 0.4551923389618213,
+                "creation_time": 1672167714.0257075,
+                "auxillary_file_paths": [
+                    "results\\ppo\\Easy\\Easy-31607.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 31607,
+            "file_path": "results\\ppo\\Easy.onnx",
+            "reward": 0.4551923389618213,
+            "creation_time": 1672167714.0257075,
+            "auxillary_file_paths": [
+                "results\\ppo\\Easy\\Easy-31607.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

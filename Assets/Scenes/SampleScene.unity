@@ -677,7 +677,7 @@ MonoBehaviour:
   ballTransform: {fileID: 1594370505}
   moveSpeed: 8
   _mainCamera: {fileID: 519420031}
-  isPlayer: 0
+  isPlayer: 1
   isLeftPlayer: 0
 --- !u!114 &339513155
 MonoBehaviour:
@@ -701,7 +701,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 1430e033635fc6645874502d8f404867, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: d58b6c1b5c54ccf4d93209fbf8d1dd50, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: Easy
@@ -1295,7 +1295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.996, y: -0.3592}
+  m_AnchoredPosition: {x: 38.996, y: -7.4}
   m_SizeDelta: {x: 193.5923, y: 25.7815}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &524020396
@@ -1528,8 +1528,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 10, y: -10}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchoredPosition: {x: 5.0417023, y: -3.638998}
+  m_SizeDelta: {x: 29.9166, y: 29.9166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &563071161
 MonoBehaviour:
@@ -1845,7 +1845,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.3553, y: -0.7864}
+  m_AnchoredPosition: {x: 38.3553, y: 7.4}
   m_SizeDelta: {x: 192.3107, y: 26.6359}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &696781114
@@ -2679,8 +2679,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 10, y: -10}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchoredPosition: {x: 5.0417, y: -17.1}
+  m_SizeDelta: {x: 29.9166, y: 29.9166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261603617
 MonoBehaviour:
@@ -4312,7 +4312,7 @@ MonoBehaviour:
   ballTransform: {fileID: 1594370505}
   moveSpeed: 8
   _mainCamera: {fileID: 519420031}
-  isPlayer: 1
+  isPlayer: 0
   isLeftPlayer: 1
 --- !u!114 &2141993999
 MonoBehaviour:
@@ -4336,7 +4336,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 1430e033635fc6645874502d8f404867, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: d58b6c1b5c54ccf4d93209fbf8d1dd50, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: Easy
