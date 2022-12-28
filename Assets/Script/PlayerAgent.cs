@@ -27,21 +27,7 @@ public class PlayerAgent : Agent
         sensor.AddObservation(transform.localPosition);
         sensor.AddObservation(ballTransform.localPosition);
     }
-
-    /*
-    public override void Heuristic(in ActionBuffers actionsOut)
-    {
-        ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
-        if (Input.touches.Length > 0)
-        {
-            Vector3 touchPosition = Input.touches[0].position;
-            touchPosition = _mainCamera.ScreenToWorldPoint(touchPosition);
-            touchPosition.y = Mathf.Clamp(touchPosition.y, -3.10f,3.10f);
-            continuousActions[0] = touchPosition.y;
-        }
-    }
-    */
-
+    
     public override void OnActionReceived(ActionBuffers actions)
     {
         float moveY = actions.ContinuousActions[0];
@@ -56,16 +42,6 @@ public class PlayerAgent : Agent
 
     private void Update()
     {
-        if (Input.touchCount == 1)
-        {
-            Touch touch = Input.GetTouch(0);
-        }
-        else if (Input.touchCount == 2)
-        {
-            Touch touch = Input.GetTouch(0);
-            Touch touch2 = Input.GetTouch(1);
-        }
-
         if (isPlayer && Input.touchCount > 0)
         {
             foreach (Touch touch in Input.touches)

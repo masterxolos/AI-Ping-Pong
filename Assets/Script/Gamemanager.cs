@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
         
         leftScore++;
         UpdateUI();
-
+        
         NewGame();
     }
     public void RightGoal()

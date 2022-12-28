@@ -3675,9 +3675,9 @@ MonoBehaviour:
   isRightPlayerBot: 1
   pauseMenu: {fileID: 459372245}
   _nnModels:
-  - {fileID: 5022602860645237092, guid: 82a9e14105ed3bf4f8b11b43489880b6, type: 3}
-  - {fileID: 5022602860645237092, guid: 82a9e14105ed3bf4f8b11b43489880b6, type: 3}
   - {fileID: 5022602860645237092, guid: d58b6c1b5c54ccf4d93209fbf8d1dd50, type: 3}
+  - {fileID: 5022602860645237092, guid: 82a9e14105ed3bf4f8b11b43489880b6, type: 3}
+  - {fileID: 5022602860645237092, guid: 1430e033635fc6645874502d8f404867, type: 3}
 --- !u!4 &1651364914
 Transform:
   m_ObjectHideFlags: 0
